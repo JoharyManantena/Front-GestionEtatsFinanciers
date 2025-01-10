@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="~{fragments.html :: head-content}"></head>
+</html>
+
+
+
+  <body class="vertical  light  ">
+    <div class="wrapper">
+
+      <!-- TopPanel  -->
+    <div th:replace="~{fragments.html :: topPanel}"></div>
+      
+      <!-- Sidebar   -->
+    <div th:insert="~{fragments.html :: sidebar}"></div>
+
+      
+      <main role="main" class="main-content">
+
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="row">        
+                
+              </div>
+
+              
+
+
+            </div>
+          </div>
+        </div>
+   
+      </main>
+
+    </div>
+    
+
+    <head th:replace="~{fragments.html :: script-content}"></head>
+
+    
+  </body>
+
+   <a href="https://docs.google.com/spreadsheets/d/1N9Cf7tioxJxChFK4XmtcgK6fhmd7zjx-Y6H9raRyyzc/edit?usp=sharing"> Vers To Do list</a> 
+</html>
